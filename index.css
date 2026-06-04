@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url("https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200")
+        center/cover no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    width: 400px;
+    color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h1 {
+    color: gold;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+#message {
+    font-style: italic;
+    color: #f5d76e;
+    margin-bottom: 1rem;
+}
+
+.cards-section,
+.sum-section {
+    margin: 1rem 0;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+}
+
+#cards,
+#sum {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 1.5rem;
+}
+
+button {
+    background: gold;
+    color: #fff;
+    text-shadow: 0 0 1px black;
+    border: none;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ffd700;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: scale(0.95);
+}
